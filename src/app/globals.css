@@ -8,75 +8,75 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 93%; /* Light Gray #EEEEEE */
-    --foreground: 0 0% 26%; /* Dark Gray #424242 */
+    --background: 220 30% 96%; /* Very Light Cool Off-White */
+    --foreground: 220 25% 25%; /* Dark Slate Blue */
     --card: 0 0% 100%; /* White */
-    --card-foreground: 0 0% 26%; /* Dark Gray */
+    --card-foreground: 220 25% 25%; /* Dark Slate Blue */
     --popover: 0 0% 100%; /* White */
-    --popover-foreground: 0 0% 26%; /* Dark Gray */
-    --primary: 174 45% 57%; /* Muted Teal #4DB6AC */
-    --primary-foreground: 0 0% 100%; /* White for better contrast with Teal */
-    --secondary: 0 0% 90%; /* Slightly darker than background */
-    --secondary-foreground: 0 0% 26%; /* Dark Gray */
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%; /* A muted gray */
-    --accent: 260 44% 73%; /* Soft Lavender #B39DDB */
-    --accent-foreground: 0 0% 100%; /* White for better contrast with Lavender */
-    --accent-hsl: 260 44% 73%; /* For animations */
+    --popover-foreground: 220 25% 25%; /* Dark Slate Blue */
+    --primary: 330 75% 55%; /* Softer Pink (from moon) */
+    --primary-foreground: 0 0% 100%; /* White */
+    --secondary: 220 25% 90%; /* Light Cool Grey */
+    --secondary-foreground: 220 20% 30%; /* Darker Slate Blue */
+    --muted: 220 25% 94%; /* Slightly off-white grey */
+    --muted-foreground: 220 15% 50%; /* Medium Slate Grey */
+    --accent: 195 65% 50%; /* Softer Cyan/Teal (from water) */
+    --accent-foreground: 0 0% 100%; /* White */
+    --accent-hsl: 195 65% 50%; /* For animations */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 85%; /* A bit darker gray for borders */
-    --input: 0 0% 85%; /* Same as border for input fields */
-    --ring: 260 44% 73%; /* Soft Lavender for focus rings */
+    --border: 220 20% 85%; /* Light Cool Grey Border */
+    --input: 220 20% 85%; /* Light Cool Grey Border */
+    --ring: 330 75% 55%; /* Softer Pink for focus rings */
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 220 25% 94%; /* Light theme sidebar background */
+    --sidebar-foreground: 220 20% 30%; /* Light theme sidebar foreground */
+    --sidebar-primary: 330 75% 55%; /* Light theme sidebar primary */
+    --sidebar-primary-foreground: 0 0% 100%; /* Light theme sidebar primary foreground */
+    --sidebar-accent: 220 30% 88%; /* Light theme sidebar accent */
+    --sidebar-accent-foreground: 330 75% 55%; /* Light theme sidebar accent foreground */
+    --sidebar-border: 220 20% 80%; /* Light theme sidebar border */
+    --sidebar-ring: 195 65% 50%; /* Light theme sidebar ring */
   }
   .dark {
-    --background: 0 0% 10%; /* Very Dark Gray */
-    --foreground: 0 0% 93%; /* Light Gray */
-    --card: 0 0% 12%; /* Slightly lighter than background */
-    --card-foreground: 0 0% 93%; /* Light Gray */
-    --popover: 0 0% 10%; /* Very Dark Gray */
-    --popover-foreground: 0 0% 93%; /* Light Gray */
-    --primary: 174 45% 57%; /* Muted Teal */
-    --primary-foreground: 0 0% 100%; /* White for contrast */
-    --secondary: 0 0% 15%; /* Darker Gray */
-    --secondary-foreground: 0 0% 93%; /* Light Gray */
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 260 44% 73%; /* Soft Lavender */
-    --accent-foreground: 0 0% 100%; /* White for contrast */
-    --accent-hsl: 260 44% 73%; /* For animations */
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 20%; /* Lighter dark gray for borders */
-    --input: 0 0% 20%; /* Same as border */
-    --ring: 260 44% 73%; /* Soft Lavender for focus rings */
+    --background: 230 40% 12%; /* Deep Navy Blue (sky) */
+    --foreground: 230 20% 90%; /* Very Light Cool Grey / Off-White */
+    --card: 230 35% 18%; /* Slightly Lighter Navy */
+    --card-foreground: 230 20% 90%; /* Very Light Cool Grey / Off-White */
+    --popover: 230 35% 18%; /* Slightly Lighter Navy */
+    --popover-foreground: 230 20% 90%; /* Very Light Cool Grey / Off-White */
+    --primary: 330 85% 68%; /* Vibrant Pink (moon) */
+    --primary-foreground: 0 0% 100%; /* White */
+    --secondary: 240 30% 25%; /* Muted Darker Blue/Purple */
+    --secondary-foreground: 230 20% 85%; /* Light Cool Grey */
+    --muted: 240 25% 20%; /* Darker Muted Blue/Purple */
+    --muted-foreground: 240 15% 65%; /* Greyish Blue */
+    --accent: 195 75% 55%; /* Bright Cyan/Teal (water reflection) */
+    --accent-foreground: 0 0% 100%; /* White */
+    --accent-hsl: 195 75% 55%; /* For animations */
+    --destructive: 0 70% 55%; /* A standard red for errors */
+    --destructive-foreground: 0 0% 98%; /* White */
+    --border: 230 25% 28%; /* Subtle Dark Blue Border */
+    --input: 230 25% 28%; /* Subtle Dark Blue Border */
+    --ring: 195 75% 55%; /* Bright Cyan for focus rings */
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 230 40% 10%; /* Dark theme sidebar background */
+    --sidebar-foreground: 230 20% 88%; /* Dark theme sidebar foreground */
+    --sidebar-primary: 330 85% 68%; /* Dark theme sidebar primary */
+    --sidebar-primary-foreground: 0 0% 100%; /* Dark theme sidebar primary foreground */
+    --sidebar-accent: 230 30% 15%; /* Dark theme sidebar accent */
+    --sidebar-accent-foreground: 195 75% 65%; /* Dark theme sidebar accent foreground */
+    --sidebar-border: 230 25% 22%; /* Dark theme sidebar border */
+    --sidebar-ring: 195 75% 55%; /* Dark theme sidebar ring */
   }
 }
 
