@@ -3,6 +3,7 @@
 
 import { ThemeToggle } from './theme-toggle';
 import Image from 'next/image';
+import whisprIconPNG from '../app/whispr-icon.png';
 
 export function Header() {
   return (
@@ -10,11 +11,10 @@ export function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center gap-3">
           <Image
-            src="https://placehold.co/32x32.png"
+            src={whisprIconPNG}
             alt="Whispr Logo"
             width={32}
             height={32}
-            className="text-primary"
             data-ai-hint="logo"
           />
           <h1 className="text-3xl font-bold tracking-tight text-foreground">
